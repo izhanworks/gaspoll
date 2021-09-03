@@ -5,13 +5,13 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
-IZIN=$( curl https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/kota/ipvps | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ipvps | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Whatsapp : wa.me/6282311190332"
+echo "Whatsapp : 6283803284713"
 echo "Waiting 5 Sec"
 rm -f setup.sh
 sleep 5
@@ -34,9 +34,9 @@ touch /etc/trojan-go/uuid.txt
 mkdir -p /etc/trojan-go/
 chmod 777 /etc/trojan-go/
 touch /etc/trojan-go/trojan-go.pid
-wget -O /etc/trojan-go/trojan-go https://raw.githubusercontent.com/SSHSEDANG4/sshsedang/main/men/trojan-go
-wget -O /etc/trojan-go/geoip.dat https://raw.githubusercontent.com/SSHSEDANG4/sshsedang/main/men/geoip.dat
-wget -O /etc/trojan-go/geosite.dat https://raw.githubusercontent.com/SSHSEDANG4/sshsedang/main/men/geosite.dat
+wget -O /etc/trojan-go/trojan-go https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/trojan-go
+wget -O /etc/trojan-go/geoip.dat https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/geoip.dat
+wget -O /etc/trojan-go/geosite.dat https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/geosite.dat
 chmod +x /etc/trojan-go/trojan-go
 cat <<EOF > /etc/trojan-go/config.json
 {
