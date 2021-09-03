@@ -334,6 +334,7 @@ wget -O bannerku "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/men
 wget -O bbr "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/bbr.sh"
 wget -O menu "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/menu.sh"
 wget -O trojaan "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/trojaan.sh"
+wget -O trojango "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ins-trojango.sh && dos2unix ins-trojango.sh && chmod +x ins-trojango.sh && ./ins-trojango.sh"
 wget -O vleess "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/vleess.sh"
 wget -O wgr "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/wgr.sh"
 wget -O l2tp "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/l2tp.sh"
@@ -507,6 +508,7 @@ echo "   - V2RAY Vless TLS         : 2083"  | tee -a log-install.txt
 echo "   - V2RAY Vless None TLS    : 8880"  | tee -a log-install.txt
 echo "   - Trojan                  : 2087"  | tee -a log-install.txt
 echo "   - SSH WS TLS              : 2053"  | tee -a log-install.txt
+echo "   - TrojanGO                : 2096"  | tee -a log-install.txt
 echo "   - SSH WS TLS              : 2095"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
