@@ -334,7 +334,6 @@ wget -O bannerku "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/men
 wget -O bbr "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/bbr.sh"
 wget -O menu "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/menu.sh"
 wget -O trojaan "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/trojaan.sh"
-wget -O trojango "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ins-trojango.sh && dos2unix ins-trojango.sh && chmod +x ins-trojango.sh && ./ins-trojango.sh"
 wget -O vleess "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/vleess.sh"
 wget -O wgr "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/wgr.sh"
 wget -O l2tp "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/l2tp.sh"
@@ -446,6 +445,8 @@ wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ins-vt.sh && chm
 #install L2TP
 wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+#install trojan-go
+#wget https://raw.githubusercontent.com/SSHSEDANG4/sshsedang/main/men/ins-trojango.sh && dos2unix ins-trojango.sh && chmod +x ins-trojango.sh && ./ins-trojango.sh
 #install WEBSOCKET
 wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/edu.sh && chmod +x edu.sh && ./edu.sh
 wget https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/websocket.sh && chmod +x websocket.sh && ./websocket.sh
@@ -460,6 +461,7 @@ rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 rm -f /root/edu.sh
 rm -f /root/websocket.sh
+rm -f /root/ins-trojango.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
