@@ -134,6 +134,9 @@ clear-log
 25)
 cfh
 ;;
+26)
+cfb
+;;
 x)
 exit
 ;;
