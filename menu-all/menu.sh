@@ -135,10 +135,10 @@ bbr
 clear-log
 ;;
 21)
-cfh
+cfb
 ;;
 22)
-cfb
+cfh
 ;;
 x)
 exit
