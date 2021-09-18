@@ -87,7 +87,7 @@ wget -O edu "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/edu.sh"
 wget -O go "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/go.sh"
 wget -O hapus "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/hapus.sh"
 wget -O renew-trgo "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/renew-trgo.sh"
-wget -O cff.sh "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/cff.sh"
+wget -O cff.sh "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/cff.sh"
 wget -O cfb "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/cfb.sh"
 chmod +x cfb
 chmod +x cff
