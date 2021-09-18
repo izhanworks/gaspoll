@@ -18,7 +18,7 @@ exit 0
 fi
 echo "Start Update"
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/menu-all/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/trial.sh"
 wget -O change-port "https://raw.githubusercontent.com/YakkoRasZ14/gaspoll/main/change.sh"
