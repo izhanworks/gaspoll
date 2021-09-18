@@ -66,7 +66,7 @@ echo -e   "   18\e[1;33m)\e[m  Info Script Auto Install"
 echo -e   "   19\e[1;33m)\e[m  Install BBR"
 echo -e   "   20\e[1;33m)\e[m  Clear Log"
 echo -e   "   21\e[1;33m)\e[m  Pointing Bug"
-echo -e   "   22\e[1;33m)\e[m  Ganti Email/Id/Key Cloudflare"
+echo -e   "   22\e[1;33m)\e[m  Add ID CloudFlare"
 echo -e   "  \e[1;32m============================================================"| lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m============================================================"| lolcat
@@ -138,7 +138,7 @@ clear-log
 cfb
 ;;
 22)
-cfh
+cff
 ;;
 x)
 exit
