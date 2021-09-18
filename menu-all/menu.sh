@@ -64,6 +64,9 @@ echo -e   "   16\e[1;33m)\e[m  Speedtest VPS"
 echo -e   "   17\e[1;33m)\e[m  Information Display System" 
 echo -e   "   18\e[1;33m)\e[m  Info Script Auto Install"
 echo -e   "   19\e[1;33m)\e[m  Install BBR"
+echo -e   "   20\e[1;33m)\e[m  Clear Log"
+echo -e   "   21\e[1;33m)\e[m  Pointing Bug"
+echo -e   "   22\e[1;33m)\e[m  Ganti Email/Id/Key Cloudflare"
 echo -e   "  \e[1;32m============================================================"| lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m============================================================"| lolcat
@@ -131,10 +134,10 @@ bbr
 20)
 clear-log
 ;;
-25)
+21)
 cfh
 ;;
-26)
+22)
 cfb
 ;;
 x)
