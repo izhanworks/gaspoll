@@ -8,7 +8,7 @@ cd
 #Buat name user github dan nama folder
 GitUser="YakkoRasZ14"
 namafolder="websocket-python"
-#wget https://github.com/${GitUser}/main/${namafolder}/
+#wget https://github.com/${GitUser}/main/gaspoll/${namafolder}/
 
 #Install system auto run
 #System OpenSSH Websocket-SSH Python
