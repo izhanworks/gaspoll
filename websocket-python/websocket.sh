@@ -31,9 +31,9 @@ wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/${GitUser}/g
 wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/${GitUser}/gaspoll/main/${namafolder}/ws-ovpn && chmod +x /usr/local/bin/ws-ovpn
 #
 chmod +x /usr/local/bin/ws-openssh
-chmod +x /usr/local/bin/ws-openssh
-chmod +x /usr/local/bin/ws-openssh
-chmod +x /usr/local/bin/ws-openssh
+chmod +x /usr/local/bin/ws-dropbear
+chmod +x /usr/local/bin/ws-stunnel
+chmod +x /usr/local/bin/ws-ovpn
 cd
 #
 cd
